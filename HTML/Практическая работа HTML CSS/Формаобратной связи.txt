@@ -1,0 +1,16 @@
+<!-- Текстовое поле -->
+<input type="text">
+<!-- Галочка -->
+<input type="checkbox">
+<!--Для пароля-->
+<input type="password">
+<!-- Переключатель -->
+<input type="radio">
+<!--Кнопка-->
+<input type="button">
+<!--Почта-->
+<input type="email">
+<!--Для файла-->
+<input type="file">
+<!--Для изображений-->
+<input type="image">

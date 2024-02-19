@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 500px 900px;
+    grid-template-rows: 100px 200px 300px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+.grid div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+
+.item{
+    background-color: bisque;
+    font-size: 15px;
+}
+/* .conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-auto-rows: 80px; 
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-gap: 20px;
+    grid-column-gap: 20px; горизонтальный отступ 
+    grid-row-gap: 20px; вертикальный отступ 
+    grid-gap - сокращенный вариант
+    1fr - фракция CSS Grid - это специальная единица измерения для создания 
+    адаптивного макета 
+} */
+
+.conteiner1{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 100px);  */
+    /* grid-template-columns: minmax(100px, 700px) 100px 100px 100px; */
+    grid-gap: 20px;
+}
+.item:nth-child(1) {
+    /* grid-column-start: 2; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

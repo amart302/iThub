@@ -1,0 +1,163 @@
+header{
+    height: 205px;
+    width: 1864px;
+}
+
+.headBox1{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.headBox2{
+    display: flex;
+    height: 94px;
+    width: 100%;
+}
+.headBox3{
+    background-color: rgb(243, 243, 243);
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+
+.B1Block0{
+    height: 30px;
+    width: 30px;
+    background-image: url(./img/иконка\ гео\ 2\ \(1\).png);
+    margin-left: 100px;
+    margin-top: 8px;
+}
+.B1Block1{
+    color: white;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+.B1Block2{
+    height: 50px;
+    width: 520px;
+    margin: 14px;
+    margin-left: 40px;
+}
+.B1Block3{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 34%;
+    display: flex;
+}
+.B1B3Block1{
+    height: 30px;
+    width: 30px;
+    background-image: url(./img/грузовичок\ \(1\)\ \(1\).png);
+}
+.B1B3Block3{
+    height: 30px;
+    width: 30px;
+    background-image: url(./img/карточка\ \(1\).png);
+}.B1B3Block5{
+    height: 30px;
+    width: 30px;
+    background-color: aquamarine;
+}
+
+
+.B1Block2 nav a{
+    color: white;
+    margin-right: 28px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(255, 55, 0);
+}
+.headBox3 nav{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 110px;
+}
+.headBox3 nav a{
+    margin-right: 42px;
+}
+
+.B2Block1{
+    height: 94px;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 108px;
+}
+.B2Block1 a{
+    margin-right: 10px;
+}
+
+.B2Block2{
+    display: flex;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.B2Block3{
+    display: flex;
+    margin-top: 4px;
+    margin-right: 108px;
+}
+.B2B2Block1{
+    background-image: url(./img/лого\ \(1\).jpg);
+    height: 50px;
+    width: 50px;
+}
+.B2B2Block2{
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: x-large;
+    padding-top: 11px;
+}
+
+
+.B2B3PodBlock1{
+    margin-right: 18px;
+}
+.B2B3PodBlock2{
+    margin-right: 18px;
+}
+.B2B3PodBlock3{
+    margin-right: 18px;
+}
+.B2B3PodBlock4{
+    margin-right: 18px;
+}
+
+.B2B3Block1{
+    background-image: url(./img/иконка\ человечка\ \(1\)\ \(1\).png);
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.B2B3Block3{
+    background-image: url(./img/звезда\ \(1\).png);
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.B2B3Block5{
+    background-image: url(./img/тележка\ \(1\)\ \(1\).png);
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.B2B3Block7{
+    background-image: url(./img/лупа\ \(1\).png);
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

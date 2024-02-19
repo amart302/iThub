@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:wght@300&display=swap');
+
+
+
+/* body{
+    background-color: blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+} */
+
+/* .title{
+    color: red;
+    font-size: 20px;
+    background-color: black;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.orange{
+    color: orange;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: rgb(0, 0, 110);
+} */
+
+
+
+/* HEX - код вариант цвета */
+h1{
+    background-color: #ec710d;
+}
+
+/* текст вариант цвета */
+h2{
+    background-color: orange;
+}
+
+/* Вариант цвета с RGB */
+h3{
+    background-color: rgb(59, 112, 36);
+}
+
+h4{
+    background-color: rgba(12, 123, 54, 23);
+}
+
+.image{
+    background-image: url("./7873090.jpg");
+    background-repeat: repeat-y;
+    width: 2500px;
+    height: 1300px;
+}
+
+#image{
+    background-image: linear-gradient(black, white);
+    width: 800px;
+    height: 900px;
+}
+
+/* #fixed{
+    position: fixed;
+    right: 0;
+    background-color: pink;
+    height: 200px;
+    width: 400px;
+} */
+
+#imageFixed{
+    width: 660px;
+	background-color:#E0E4EF;
+	height: 300px;
+	background-image: url("https://html5book.ru/images/flower112.png"),
+	url("https://html5book.ru/images/leaf112.png"), 
+	url("https://html5book.ru/images/flower221.png");
+	background-repeat: repeat-x;
+	background-position: 0 250px, 0 150px, 0 98px; 
+}
+
+.pp{
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.background{
+    background-color: #FCF8F7;
+    height: 300px;
+    background-image: url(https://icon2.cleanpng.com/20190820/eah/transparent-rose-5d69cdccde7cb3.0108067715672150529113.jpg);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+
+.background2{
+    width: 660px;
+    background-color: #E0E4EF;
+    height: 900px;
+    background-image: url(https://distribution.faceit-cdn.net/images/45cea714-4ddf-498f-a4d5-d556ed814f0f.jpeg), 
+    url(https://cdn.fastcup.net/logos/teams/66131_8117e9dnm.webp), url(https://distribution.faceit-cdn.net/images/e0452e55-f95f-4ae0-a50c-46cd81fa2701.jpeg);
+    background-repeat: repeat-x;
+    background-position: 0px 324px , 0px 606px , 0 24px;
+}
+
+.background3{
+    width: 1200px;
+    background-color: #E0E4EF;
+    height: 900px;
+    background-image: url(https://distribution.faceit-cdn.net/images/45cea714-4ddf-498f-a4d5-d556ed814f0f.jpeg), 
+    url(https://cdn.fastcup.net/logos/teams/66131_8117e9dnm.webp), url(https://distribution.faceit-cdn.net/images/e0452e55-f95f-4ae0-a50c-46cd81fa2701.jpeg);
+    background-repeat: repeat-x;
+    background-position: bottom right, center center, top left;
+}
+
+/* Оформление текста */
+
+.text{
+    text-transform: capitalize;
+    text-align: justify;
+    font-family:Agbalumo, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 19px;
+}

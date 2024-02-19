@@ -1,0 +1,51 @@
+.element{
+    /* height: 300px;
+    width: 300px;
+    animation: changeColor 3s infinite ; */
+}
+.element2 {
+  position: relative;
+  top: 200px;
+  height: 300px;
+  width: 300px;
+  animation: changeColor 2s infinite, move 10s infinite, rotate 10s infinite linear ;
+  /* animation: rotate 1.5s infinite linear; */
+}
+
+.element2{
+    /* animation: changeColor 3s infinite, move 4s infinite alternate; */
+}
+
+@keyframes changeColor {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: black;
+    }
+    100% {
+      background-color: blue;
+    }
+}
+@keyframes move {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 500px;
+  }
+}
+@keyframes move2 {
+  100% {
+    margin-left: 0px;
+  }
+  0% {
+    margin-left: 400px;
+  }
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+

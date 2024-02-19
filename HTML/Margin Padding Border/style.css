@@ -1,0 +1,165 @@
+.green{
+    background-color: greenyellow;
+    height: auto;
+    width: 1200px;
+}
+.orange{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.blue{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+.black{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 2px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_dasher{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 2px dashed red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_dotted{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 2px dotted red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_double{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px double red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_inset{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px inset red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_outset{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px outset red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_groove{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px groove red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_ridge{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px ridge red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black_radius{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px ridge red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.black_radius2{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px ridge red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+.black_radius3{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin-top: 10px;
+    border: 6px ridge red;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 0px 20px 0px;
+}
+.red{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.red2{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 40px 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+.red3{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 40px 40px 0px 0px rgba(0, 0, 0, 0.5);
+}
+.red4{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.5);
+}
+.red5{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 40px 40px 40px 40px rgba(9, 232, 31, 0.5);
+    opacity: 10%;
+}

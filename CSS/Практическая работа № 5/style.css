@@ -1,0 +1,44 @@
+.car{
+    margin-top: 50px;
+    width: 100%;
+    height: 125px;
+}
+.carimg{
+    animation: mashin 1.5s infinite;
+    height: 125px;
+    width: 500px;
+}
+.coleso1{
+    position: relative;
+    top: -66px;
+    left: 33px;
+}
+.coleso2{
+    position: relative;
+    top: -142px;
+    left: 350px;
+}
+.colesoimg1{
+    height: 80px;
+    width: 80px;
+    animation: mashin 1.5s infinite, rotate 1.5s infinite;
+}
+.colesoimg2{
+    width: 80px;
+    height: 80px;
+    animation: mashin 1.5s infinite, rotate 1.5s infinite;
+}
+
+
+@keyframes mashin{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 1000px;
+    }
+}
+@keyframes rotate{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

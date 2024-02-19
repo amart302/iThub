@@ -1,0 +1,239 @@
+body{
+    background: rgb(78, 78, 78);
+}
+
+header{
+    display: flex;
+    height: 92px;
+}
+.head1{
+    position: fixed;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+.head2{ 
+    position: fixed;
+    margin-bottom: 10px;
+    width: 2500px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+main{
+    height: 590px;
+    overflow-x: auto;
+    margin: 30px;
+}
+
+.scroll{
+    display: flex;
+}
+
+
+.group-1{
+    margin-right: 6px;   
+}
+.group0{
+    margin-right: 6px;   
+}
+.group1{
+    margin-right: 70px;   
+}
+.group2{
+    margin-right: 70px;
+}
+.group3{
+    margin-right: 70px;
+}
+.group4{
+    margin-right: 6px;
+}
+.group5{
+    margin-right: 70px;
+}
+.group6{
+    margin-right: 6px;    
+}
+.group7{
+    margin-right: 6px;    
+}
+.group8{
+    margin-right: 6px;    
+}
+.group9{
+    margin-right: 6px;    
+}
+
+.podgroup-1{
+    display: flex;
+}
+.podgroup0{
+    display: flex;
+}
+.podgroup1{
+    display: flex;
+}
+.podgroup2{
+    display: flex;
+}
+.podgroup3{
+    display: flex;
+}
+.podgroup4{
+    display: flex;
+}
+.podgroup5{
+    display: flex;
+}
+.podgroup6{
+    display: flex;
+}
+.podgroup7{
+    display: flex;
+}
+.podgroup8{
+    display: flex;
+}
+.podgroup9{
+    display: flex;
+}
+
+
+.small1{
+    background-color: brown;
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small2{
+    background-color: yellowgreen;
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small3{
+    background-color: rgb(168, 157, 3);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small4{
+    background-color: rgb(3, 168, 168);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small5{
+    background-color: rgb(172, 172, 172);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small7{
+    background-color: rgb(83, 85, 187);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small9{
+    background-color: rgb(0, 2, 150);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+
+
+.medium-1{
+    background-color: rgb(25, 57, 187);
+    color: white;
+    text-align: inherit;
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium0{
+    background-color: rgb(42, 11, 100);
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium1{
+    background-color: brown;
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium2{
+    background-color: yellowgreen;
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium5{
+    background-color: rgb(172, 172, 172);
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium6{
+    background-color: rgb(100, 11, 93);
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium7{
+    background-color: rgb(83, 85, 187);
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium8{
+    background-color: rgb(18, 18, 51);
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+
+
+.big4{
+    background-color: rgb(3, 168, 168);
+    height: 205px;
+    width: 214px;
+    margin: 7px;
+}
+.big5{
+    background-color: rgb(172, 172, 172);
+    height: 205px;
+    width: 214px;
+    margin: 7px;
+}
+.big8{
+    background-color: rgb(18, 18, 51);
+    height: 205px;
+    width: 214px;
+    margin: 7px;
+}
+
+
+.image-1{
+    background-image: url(./image/image-1.png);
+}
+.image0{
+    background-image: url(./image/image0.png);
+    height: 93px;
+}
+.image1{
+    background-image: url(./image/image1.png);
+}
+.image2{
+    background-image: url(./image/image2.png);
+}
+.image3{
+    background-image: url(./image/image3.png);
+}

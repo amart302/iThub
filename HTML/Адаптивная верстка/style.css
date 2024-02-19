@@ -1,0 +1,107 @@
+body{
+    background: rgb(56, 55, 55);
+}
+
+header{
+    display: flex;
+    height: 92px;
+}
+.head1{
+    position: fixed;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 30px;
+}
+
+
+.head2{ 
+    position: fixed;
+    margin-bottom: 10px;
+    width: 2500px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+main{
+    height: 590px;
+    overflow-x: auto;
+    margin: 30px;
+}
+
+.scroll{
+    display: flex;
+}
+
+.group1{
+    margin-right: 70px;   
+}
+.group2{
+    margin-right: 70px;
+}
+.group3{
+    margin-right: 70px;
+}
+.group4{
+    margin-right: 6px;
+}
+
+.podgroup1{
+    display: flex;
+}
+.podgroup2{
+    display: flex;
+}
+.podgroup3{
+    display: flex;
+}
+.podgroup4{
+    display: flex;
+}
+
+.small1{
+    background-color: brown;
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small2{
+    background-color: yellowgreen;
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small3{
+    background-color: rgb(168, 157, 3);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+.small4{
+    background-color: rgb(3, 168, 168);
+    height: 95px;
+    width: 100px;
+    margin: 7px;
+}
+
+.medium1{
+    background-color: brown;
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+.medium2{
+    background-color: yellowgreen;
+    height: 95px;
+    width: 214px;
+    margin: 7px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .class{
+        
+    }
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <section id="menu">
+        <h2>Наше меню</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Объем</th>
+                    <th>Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="img/espresso_d383b28a-3133-4c64-b2ce-55f018aa9df5.png" alt="Espresso">
+                    </td>
+                    <td>
+                        Espresso
+                    </td>
+                    <td>
+                        Насыщенный крепкий кофе для быстрого пробуждения
+                    </td>
+                    <td>
+                        40 мл
+                    </td>
+                    <td>
+                        70 рублей
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/americano_b70ebb3f-744a-44d6-81f2-8dd3c3f12fcf.png" alt="Americano">
+                    </td>
+                    <td>
+                        Americano
+                    </td>
+                    <td>
+                        Способ приготовления кофе, заключающийся в соединении определённого количества горячей воды и эспрессо.
+                    </td>
+                    <td>
+                        50мл
+                    </td>
+                    <td>
+                        80 рублей
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/latte_082b0239-9a01-4a40-b83e-334d02ba05d7.png" alt="Latte">
+                    </td>
+                    <td>
+                        Latte
+                    </td>
+                    <td>
+                        Кофейный напиток на основе молока, представляющий собой трёхслойную смесь из молочной пены, молока и кофе эспрессо.
+                    </td>
+                    <td>
+                        70мл
+                    </td>
+                    <td>
+                        120 рублей
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/mocha_a55b4de9-5b5c-43e3-b1c0-577f8b970c1e.png" alt="Mocha">
+                    </td>
+                    <td>
+                        Mocha
+                    </td>
+                    <td>
+                        Кофейный напиток, созданный в Америке
+                    </td>
+                    <td>
+                        85мл
+                    </td>
+                    <td>
+                        100 рублей
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>Сиропы на выбор</td>
+                    <td>
+                        <ul>
+                            <li>Карамельный</li>
+                            <li>Шоколадный</li>
+                            <li>Ореховый</li>
+                            <li>Банановый</li>
+                            <li>Кокосовый</li>
+                        </ul>
+                    </td>
+                    <td>
+                        5мл
+                    </td>
+                    <td>
+                        40 рублей
+                    </td>
+                    
+                  
+                </tr>
+            </tfoot>
+
+        </table>
+    </section>
+    
+   <section id="feedback">
+     <h2>Задайте вопрос</h2>
+     <form action="">
+         <table>
+            <tr>
+                <td>
+                    <label for="">|Ваше имя</label>
+                </td>
+                
+                <td>
+                    <input type="text" id="name" placeholder="Иван">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="age"> К какой возрастной группе вы относитесь ?</label>
+                </td>
+
+                <td>
+                    <label>
+                        <input type="radio" name="age" value="Меньше 18">
+                         Меньше 18 лет
+                    </label>
+
+                    <label>
+                        <input type="radio" name="age" value="18-29">
+                        18-29
+                    </label>
+
+                    <label>
+                        <input type="radio" name="age" value="30-50">
+                        30-50
+                    </label>
+
+                    <label>
+                        <input type="radio" name="age" value="Больше 50">
+                       Больше 50
+                    </label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="quantity">Сколько чашек кофе вы выпиваете в неделю ?</label>
+                </td>
+
+                <td>
+                    <input type="number" id="quantity" name="quantity" placeholder="5">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="type">О чем ваш вопрос?</label>
+                </td>
+                <td>
+                    <select id="type" name="type">
+                        <option>Про наше кафе</option>
+                        <option>О сортах кофе</option>
+                        <option>О ценах и объемах</option>
+                        <option>Другое</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message">Напишите свой вопрос</label>
+                </td>
+                <td>
+                    <textarea id="message" name="message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="Очистить">
+                    <input type="submit" value="Задать вопрос">
+                </td>
+            </tr>
+         </table>
+     </form>
+   </section>
+</body>
+</html>

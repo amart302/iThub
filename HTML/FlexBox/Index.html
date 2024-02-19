@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docum</title>
+</head>
+<body>
+    <style>
+        .main{
+            height: 200px;
+            display: flex;
+            flex-direction: row;/*элементы располагаются слева на право относительно друг друга*/
+            flex-direction: row-reverse;/*элементы располагаются справа налево*/
+            flex-direction: column;/*сверху вниз*/
+            flex-direction: column-reverse;/*снизу вверх*/
+        }
+        .children{
+            border: 1px solid blue;
+        }
+    </style>
+
+    <div class="main">
+        <div class="children">Элемент 1</div>
+        <div class="children">Элемент 2</div>
+        <div class="children">Элемент 3</div>
+        <div class="children">Элемент 4</div>
+    </div>
+</body>
+</html>
